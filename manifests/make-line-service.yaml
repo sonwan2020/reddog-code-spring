@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: make-line-service
-          image: ghcr.io/azure/reddog-demo/reddog-java-makeline-service:latest
+          image: reddogacr.azurecr.io/reddogs/makeline-service
           imagePullPolicy: Always
           ports:
             - containerPort: 8704
@@ -39,4 +39,4 @@ spec:
     port: 8704
     targetPort: 8704
   selector:
-    app: make-line-service              
+    app: make-line-service

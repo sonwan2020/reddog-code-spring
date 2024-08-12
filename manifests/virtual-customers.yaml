@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: virtual-customers
-          image: ghcr.io/azure/reddog-demo/reddog-java-virtual-customers:latest
+          image: reddogacr.azurecr.io/reddogs/virtual-customers:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8701
