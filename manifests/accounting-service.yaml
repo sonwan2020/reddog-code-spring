@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: accounting-service
-          image: ghcr.io/azure/reddog-demo/reddog-java-accounting-service:latest
+          image: reddogacr.azurecr.io/reddogs/accounting-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8707     

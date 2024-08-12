@@ -17,10 +17,10 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: ghcr.io/azure/reddog-demo/reddog-java-order-service:latest
+          image: reddogacr.azurecr.io/reddogs/order-service:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8702          
+            - containerPort: 8702
           envFrom:
           - configMapRef:
               name: reddog-env-vars
