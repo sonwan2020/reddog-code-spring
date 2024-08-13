@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: ui
-          image: ghcr.io/azure/reddog-demo/reddog-ui-nextjs:latest
+          image: reddogacr.azurecr.io/reddogs/ui:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
