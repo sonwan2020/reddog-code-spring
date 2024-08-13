@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: make-line-service
-          image: reddogacr.azurecr.io/reddogs/makeline-service
+          image: reddogacr.azurecr.io/reddogs/makeline-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8704
