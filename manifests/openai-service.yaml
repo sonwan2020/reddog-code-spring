@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: openai-service
-          image: ghcr.io/azure/reddog-demo/reddog-az-openai:latest
+          image: reddogacr.azurecr.io/reddogs/openai-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 1025

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: virtual-worker
-          image: ghcr.io/azure/reddog-demo/reddog-java-virtual-worker:latest
+          image: reddogacr.azurecr.io/reddogs/virtual-worker:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8706
